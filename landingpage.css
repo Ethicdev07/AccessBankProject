@@ -3,4 +3,44 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+header{
+    background-color: #1b4a75;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+.logo{
+    width: 50px;
+}
+.nav-link li a{
+    color: #fff;
+}
+.nav-link li a:hover{
+    color: gray;
+}
+.nav-link ul{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.nav-btn{
+    padding: 14px 25px;
+    background-color: #052644;
+    border-radius: 5px;
+    border: none;
+}
+.nav-btn:hover{
+    background-color: #1b4a75;
+    color: #fff;
+}
+.nav-btn a{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 900;
 }
